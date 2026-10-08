@@ -1,0 +1,74 @@
+TechCare Product Support FAQ
+
+PRODUCT: PayApp
+PayApp is a digital payment application for sending and receiving money.
+
+Issue: Login Failure
+Users sometimes cannot log into PayApp.
+Solution: Go to the login page and click "Forgot Password". Enter your registered email address. You will receive a password reset link within 2 minutes. If you do not receive the email, check your spam folder. For further help, contact the Accounts Department.
+
+Issue: Payment Not Processing
+Sometimes a payment gets stuck and does not complete.
+Solution: First check your internet connection. Then verify that your bank account is linked correctly in Settings > Bank Accounts. If the problem continues, wait 10 minutes and try again. If money was deducted but payment failed, contact the Billing Department immediately.
+
+Issue: App Crashing on Startup
+PayApp crashes immediately after opening.
+Solution: Clear the app cache by going to your phone Settings > Apps > PayApp > Clear Cache. If this does not work, uninstall and reinstall the app. Contact Technical Support if the issue persists.
+
+---
+
+PRODUCT: ShopEase
+ShopEase is an online shopping platform for buying and selling products.
+
+Issue: Order Not Delivered
+Customer placed an order but it has not arrived.
+Solution: Go to My Orders and check the tracking number. Use the tracking number on the courier website to see the current location of your package. If tracking shows delivered but you did not receive it, contact the Delivery Department within 48 hours.
+
+Issue: Refund Not Received
+Customer returned a product but refund has not been credited.
+Solution: Refunds take 5 to 7 business days to appear in your account. Check your bank statement carefully. If 7 days have passed and refund is still not received, contact the Billing Department with your order number.
+
+Issue: Cannot Add Item to Cart
+The Add to Cart button is not working on ShopEase.
+Solution: Try refreshing the page. Clear your browser cookies and cache. If the problem continues, try a different browser. Contact Technical Support if none of these steps work.
+
+---
+
+PRODUCT: CloudStore
+CloudStore is a cloud storage service for saving and sharing files.
+
+Issue: File Upload Failing
+Files are not uploading to CloudStore.
+Solution: Check your internet speed first. Files larger than 2GB require the CloudStore desktop app instead of the browser. Make sure you have enough storage space in your account. Contact Technical Support if uploads fail for files under 2GB.
+
+Issue: Cannot Share File
+Shared file link is not working for the recipient.
+Solution: Go to the file, click Share, and make sure the link permission is set to Anyone with the link. Copy the link again and resend it. If the recipient still cannot access it, contact Technical Support.
+
+Issue: Account Storage Full
+User has run out of storage space on CloudStore.
+Solution: Delete files you no longer need from your account. Empty the CloudStore trash folder as deleted files still count toward storage until trash is emptied. To get more storage, contact the Billing Department to upgrade your plan.
+
+---
+
+DEPARTMENTS
+
+Billing Department
+Handles all payment, refund, and subscription related issues.
+Contact: billing@techcare.com
+Hours: Monday to Friday, 9am to 6pm
+
+Technical Support Department
+Handles all app crashes, bugs, and technical errors.
+Contact: techsupport@techcare.com
+Hours: Monday to Saturday, 8am to 8pm
+
+Accounts Department
+Handles login, account access, and password issues.
+Contact: accounts@techcare.com
+Hours: Monday to Friday, 9am to 5pm
+
+Delivery Department
+Handles all shipping, tracking, and delivery related issues.
+Contact: delivery@techcare.com
+Hours: Monday to Sunday, 9am to 9pm

@@ -1,0 +1,634 @@
+[
+  {
+    "label": "Medical Data Security Breach",
+    "issue": "Repeated security incidents involving potential exposure of medical data due to outdated software, misconfigured settings, or encryption failures.",
+    "cause": "Outdated software, misconfigured security settings, or firmware issues creating vulnerabilities.",
+    "resolution": "Agents request additional details such as software versions, error messages, logs, and network configuration, propose a call to discuss next steps, and plan to investigate further.",
+    "cluster_id": 0,
+    "size": 2929
+  },
+  {
+    "label": "Digital marketing strategy info",
+    "issue": "Customers request information on digital marketing strategies to boost brand growth and engagement",
+    "cause": "Customers seek guidance on tools, tactics, and services for enhancing brand visibility and customer interaction",
+    "resolution": "Agents respond by offering to share details on digital marketing methods (e.g., social media, SEO, content creation), ask for additional information about the customer’s current strategy or goals, and propose a phone call or email discussion to provide tailored recommendations",
+    "cluster_id": 13,
+    "size": 1527
+  },
+  {
+    "label": "Data Analytics Tool Enhancement Request",
+    "issue": "Customers request improvements or guidance on data analytics tools for investment optimization.",
+    "cause": "Current tools lack advanced features such as real‑time data, predictive modeling, advanced filtering, and customizable reporting.",
+    "resolution": "Agents ask for more details about the requested features, schedule a call to discuss, review the request with the development team, and provide tailored recommendations or next steps.",
+    "cluster_id": 25,
+    "size": 1384
+  },
+  {
+    "label": "Inaccurate Investment Forecasts",
+    "issue": "The investment analysis or optimization tool generates inconsistent or inaccurate forecasts after recent software updates or during peak usage, despite restarts and cache clearing.",
+    "cause": "Likely data source integration issues, software regression from recent updates, or server overload/insufficient resources.",
+    "resolution": "Agents ask for detailed error messages, data source and software version information, and schedule a phone call to investigate and resolve the issue.",
+    "cluster_id": 60,
+    "size": 922
+  },
+  {
+    "label": "Digital Campaign Underperformance",
+    "issue": "Marketing campaigns are not achieving expected engagement or growth, resulting in low interaction rates.",
+    "cause": "Ineffective targeting, outdated tools or strategies, and recent platform algorithm changes.",
+    "resolution": "Request detailed information on current targeting, budget, content, and performance metrics; review campaign settings; schedule a call to discuss findings and provide tailored recommendations.",
+    "cluster_id": 6,
+    "size": 838
+  },
+  {
+    "label": "Unexpected Billing Charges",
+    "issue": "Customers receive invoices with charges that they did not authorize or that appear duplicated or incorrect.",
+    "cause": "Errors in the billing system or subscription synchronization, outdated billing data, or incorrect product package configuration.",
+    "resolution": "The agent requests the customer’s account number, invoice number, and a description of the disputed charges. After receiving this information, the agent investigates the billing records, identifies the error, corrects the invoice, and sends a revised invoice to the customer.",
+    "cluster_id": 2,
+    "size": 711
+  },
+  {
+    "label": "Medical Data Security Guidance",
+    "issue": "Customers request best practices for protecting sensitive medical data in hospital IT systems.",
+    "cause": "Need to safeguard patient information against cyber threats and meet regulatory requirements.",
+    "resolution": "Provide guidance via email and schedule a call to discuss recommended cybersecurity measures, including encryption, access controls, regular audits, and compliance with relevant regulations.",
+    "cluster_id": 44,
+    "size": 518
+  },
+  {
+    "label": "Peak‑Hour Performance Slowdown",
+    "issue": "Slow response times and occasional downtime during periods of high user activity",
+    "cause": "Increased load on the servers leading to resource exhaustion, coupled with inefficient database queries or caching issues",
+    "resolution": "Agents request detailed information about current server configuration, average simultaneous users, recent deployments, and any error messages, and offer to schedule a call to further investigate and resolve the issue",
+    "cluster_id": 54,
+    "size": 382
+  },
+  {
+    "label": "Project Timeline Sync Issues",
+    "issue": "Project timelines fail to synchronize across multiple tools or systems, causing delays and data inconsistencies.",
+    "cause": "Commonly due to integration conflicts or database connectivity problems (e.g., outdated connectors, SQL Server/Redis/Cassandra issues).",
+    "resolution": "Agents request detailed information about the tools, integration settings, and any error messages. They may schedule a call to further investigate and resolve the issue.",
+    "cluster_id": 76,
+    "size": 342
+  },
+  {
+    "label": "Software Compatibility Issues After Updates",
+    "issue": "Users report crashes, freezes, or integration failures in project management and related tools following recent system or software updates.",
+    "cause": "Incompatible updates or conflicts between new software versions and existing applications or plugins.",
+    "resolution": "Contact support, provide detailed error information and update logs, and schedule a call for further troubleshooting.",
+    "cluster_id": 68,
+    "size": 321
+  },
+  {
+    "label": "SaaS Project Management Performance",
+    "issue": "Performance and connectivity problems in the SaaS project management platform",
+    "cause": "Recent updates, resource constraints, and integration conflicts",
+    "resolution": "Agents request the account number, exact error messages, and a convenient time for a phone call to gather more information and discuss possible solutions",
+    "cluster_id": 70,
+    "size": 313
+  },
+  {
+    "label": "Login Failure After Update",
+    "issue": "Users cannot log in after recent updates or during peak times, despite clearing cache and restarting browsers or servers.",
+    "cause": "Caching issues, server overload, or recent code deployments that affect authentication.",
+    "resolution": "Ask the user to try a different browser or clear cookies, provide the exact error message, and if the problem persists, contact support via phone or email for further investigation.",
+    "cluster_id": 27,
+    "size": 233
+  },
+  {
+    "label": "Dashboard not loading after update",
+    "issue": "The data analytics or processing dashboard fails to load or function after recent software updates or system restarts.",
+    "cause": "Compatibility conflicts or resource issues introduced by recent updates, database connection problems, or insufficient server resources.",
+    "resolution": "Agents request additional information such as error messages, server logs, update details, and database connection info. They offer to investigate further, often scheduling a call to discuss the issue and determine next steps.",
+    "cluster_id": 62,
+    "size": 232
+  },
+  {
+    "label": "Network Connectivity Issues",
+    "issue": "Intermittent or persistent network connectivity problems across multiple devices and platforms",
+    "cause": "Likely caused by recent firmware updates, network congestion, or router configuration changes",
+    "resolution": "Collect detailed device and network information, schedule a call for deeper troubleshooting, investigate the issue, and apply necessary firmware updates or configuration adjustments",
+    "cluster_id": 64,
+    "size": 192
+  },
+  {
+    "label": "Campaign metrics tracking issues",
+    "issue": "Campaign metrics are not tracked correctly or the analytics dashboard fails to load",
+    "cause": "Misconfigured integration or tag implementation (API, GitHub, Git, Laravel, Shopify, etc.)",
+    "resolution": "Agents request additional information such as account number, screenshots, error messages, and details about the integration. They then investigate the issue and may schedule a call to resolve it.",
+    "cluster_id": 46,
+    "size": 188
+  },
+  {
+    "label": "Digital Marketing Tool Integration Issues",
+    "issue": "Marketing agency’s digital tools and integrations fail after software updates, disrupting campaigns and brand growth.",
+    "cause": "Software incompatibilities and integration failures caused by recent updates.",
+    "resolution": "Agents ask for detailed error messages, account information, and recent update details, then schedule a call or phone conversation to investigate and resolve the issue.",
+    "cluster_id": 47,
+    "size": 172
+  },
+  {
+    "label": "Integration info request",
+    "issue": "Customers ask for details on available integrations, APIs, and documentation for connecting the SaaS project management platform to other tools and services.",
+    "cause": "Need to integrate the platform with external systems such as Google Drive, Trello, Slack, WooCommerce, or custom applications.",
+    "resolution": "Agents provide the relevant integration documentation, API keys or instructions, and offer to send step‑by‑step guides via email or schedule a call for further assistance.",
+    "cluster_id": 50,
+    "size": 168
+  },
+  {
+    "label": "Integration Settings Update",
+    "issue": "Customers request updates to integration settings or enhancements to improve compatibility across platforms and devices in the SaaS project management platform.",
+    "cause": "Current integration settings or API incompatibilities causing data synchronization, workflow automation, and cross‑platform compatibility issues.",
+    "resolution": "Agents acknowledge the request, ask for additional account and issue details, forward the request to the development team for review, and keep the customer informed of progress.",
+    "cluster_id": 49,
+    "size": 153
+  },
+  {
+    "label": "Analytics Performance Delays",
+    "issue": "Slow or delayed investment analytics reports caused by performance issues in the data analytics software",
+    "cause": "High data volume, resource limitations, or recent software updates leading to data aggregation delays",
+    "resolution": "Collect detailed error messages, system configuration, and account information; schedule a call with the support team to investigate and resolve the issue",
+    "cluster_id": 61,
+    "size": 145
+  },
+  {
+    "label": "Pricing & Billing Details",
+    "issue": "Customers request detailed information on pricing plans, billing options, discounts, and payment methods for the SaaS project management platform.",
+    "cause": "Customers are evaluating the product and need clarity on the cost structure before purchasing.",
+    "resolution": "Agents provide an overview of the available plans (basic, premium, enterprise), explain billing cycles (monthly and yearly), list accepted payment methods (credit card, bank transfer, direct debit), mention discounts for long‑term commitments or bulk purchases, note the availability of free trials, and offer to send a detailed breakdown via email or discuss further by phone.",
+    "cluster_id": 34,
+    "size": 143
+  },
+  {
+    "label": "Digital Campaign Launch Failure",
+    "issue": "Digital marketing campaigns fail to launch or start successfully",
+    "cause": "Software compatibility or integration conflicts (e.g., outdated plugins, incompatible updates)",
+    "resolution": "Agent requests detailed error information and software versions, offers to schedule a call or phone discussion, and will investigate the issue further",
+    "cluster_id": 48,
+    "size": 128
+  },
+  {
+    "label": "Medical Data Security Enhancement",
+    "issue": "Request to improve security protocols for hospital medical data",
+    "cause": "Need to protect sensitive patient data and comply with healthcare regulations",
+    "resolution": "Review current security measures, implement encryption, firewalls, access controls, regular security audits, staff training, and schedule a call to discuss implementation details",
+    "cluster_id": 41,
+    "size": 128
+  },
+  {
+    "label": "Multiple Integration Failures",
+    "issue": "Several integrations fail simultaneously, often after recent updates or compatibility changes.",
+    "cause": "Recent API or software updates causing compatibility or authorization issues.",
+    "resolution": "Ask the customer to provide error messages, logs, API keys, and account details; investigate the issue; schedule a call if further discussion is needed.",
+    "cluster_id": 73,
+    "size": 127
+  },
+  {
+    "label": "Payment methods & discounts",
+    "issue": "Customers ask about accepted payment methods, discounts, promotions, and financing options for services and subscriptions.",
+    "cause": "Need to know how to pay and if there are cost‑saving options.",
+    "resolution": "We accept credit cards, PayPal, bank transfers, checks, debit cards, and online banking. Discounts are available for long‑term contracts and promotions for new customers. Financing options and payment plans are also offered. For detailed information, please contact us or call the provided number.",
+    "cluster_id": 36,
+    "size": 127
+  },
+  {
+    "label": "Unexpected platform crash",
+    "issue": "The data analytics platform or dashboard crashes unexpectedly during operation, causing loss of data or downtime.",
+    "cause": "Likely software compatibility problems, outdated versions, insufficient server resources, or misconfigurations.",
+    "resolution": "Agents request additional information such as error logs, software and server versions, and specific error messages. They then schedule a call or contact the customer to investigate the issue further and determine a fix.",
+    "cluster_id": 67,
+    "size": 122
+  },
+  {
+    "label": "Digital Campaign Launch Failure",
+    "issue": "Digital marketing campaigns fail to start or run on various platforms",
+    "cause": "Software integration or compatibility problems caused by recent updates, plugin conflicts, or driver mismatches",
+    "resolution": "Collect detailed error messages, account information, and platform specifics from the customer; forward the data to the technical team for investigation and follow up with a call or email to provide a solution",
+    "cluster_id": 43,
+    "size": 116
+  },
+  {
+    "label": "Project Data Disappeared Overnight",
+    "issue": "Project data is missing after an overnight period, despite being present the previous day.",
+    "cause": "Likely a synchronization or integration failure involving databases or platform services (e.g., Cassandra, Firebase, Kubernetes, Docker, IBM Cloud).",
+    "resolution": "The agent will investigate the issue, request additional details such as account number, project name, and relevant logs, and will contact the customer to discuss recovery steps.",
+    "cluster_id": 65,
+    "size": 115
+  },
+  {
+    "label": "Website crash during campaign",
+    "issue": "Website crashes during marketing campaign launches, causing downtime.",
+    "cause": "Likely server overload or coding errors.",
+    "resolution": "Agents request the website URL, error messages, server logs, account number, and current server configuration. They may schedule a call to discuss details and work toward a resolution.",
+    "cluster_id": 71,
+    "size": 112
+  },
+  {
+    "label": "SaaS System Requirements",
+    "issue": "Customers ask for the minimum and recommended hardware, operating system, and browser specifications needed to run the project management SaaS platform smoothly, especially when multiple integrations are enabled.",
+    "cause": "Insufficient or outdated hardware/software can cause performance problems or incompatibility with the SaaS platform.",
+    "resolution": "Agents provide the recommended specs: a 2.5 GHz or faster processor, 8 GB of RAM (4 GB minimum for basic use), a 64‑bit OS such as Windows 10 or macOS, and the latest versions of Google Chrome or Mozilla Firefox. No special plugins are required. Agents either give the details directly, refer the customer to the website for full specifications, or offer to call the customer for further assistance.",
+    "cluster_id": 30,
+    "size": 111
+  },
+  {
+    "label": "Medical Data Security Enhancement",
+    "issue": "Need to strengthen security protocols to protect patient data in hospital IT systems.",
+    "cause": "Risk of unauthorized access and cyber threats to sensitive medical information.",
+    "resolution": "Review current security measures, implement encryption, firewalls, access controls, regular audits, and schedule a call for detailed planning.",
+    "cluster_id": 40,
+    "size": 102
+  },
+  {
+    "label": "Multi-product service outage",
+    "issue": "Unexpected service outage affecting multiple products",
+    "cause": "Suspected server overload, maintenance, recent updates, or network issues",
+    "resolution": "Agents acknowledge the outage, request additional details such as error logs, maintenance timing, affected products, and offer to discuss the issue over the phone or schedule a call",
+    "cluster_id": 72,
+    "size": 99
+  },
+  {
+    "label": "UI/UX improvement requests",
+    "issue": "Customers request enhancements to the user interface and navigation of the project management software to improve usability and productivity.",
+    "cause": "The current interface is confusing, lacks intuitive navigation, accessibility features, and scalability for larger projects.",
+    "resolution": "Agents acknowledge the request, forward it to the development team, may ask for additional details or mockups, and inform the customer that the suggestions will be considered in future updates.",
+    "cluster_id": 38,
+    "size": 92
+  },
+  {
+    "label": "Request for Assistance",
+    "issue": "Customers ask for help without providing specific details about their problem.",
+    "cause": "Insufficient information prevents the support team from diagnosing or resolving the issue.",
+    "resolution": "Agents respond by requesting additional details such as account numbers, error messages, or a description of the problem, and offer to discuss the issue further via call or at a convenient time.",
+    "cluster_id": 4,
+    "size": 91
+  },
+  {
+    "label": "Inaccurate Investment Forecasts",
+    "issue": "Investment predictions or forecasts are inaccurate or have stopped updating, often after a restart or data feed check.",
+    "cause": "Likely due to outdated data models, inconsistent or missing data feeds, or insufficient training of the analytics engine.",
+    "resolution": "Collect additional details from the customer—such as account number, specific forecast errors, data feed sources, error messages, and the version of the analytics tool—and, if necessary, schedule a call to gather more information and resolve the issue.",
+    "cluster_id": 78,
+    "size": 90
+  },
+  {
+    "label": "Enhanced Medical Data Encryption",
+    "issue": "Customers request upgrading encryption for storing and transmitting medical data to meet security and compliance requirements.",
+    "cause": "Existing encryption methods are outdated or insufficient, exposing patient data to cyber‑risk.",
+    "resolution": "Agents provide an implementation schedule or timeline, discuss available upgrade options and associated costs, and offer to arrange a call for detailed planning and staff training.",
+    "cluster_id": 39,
+    "size": 87
+  },
+  {
+    "label": "SAP ERP Analytics Integration",
+    "issue": "Customers want to know which analytics tools can be integrated with SAP ERP and how to perform the integration.",
+    "cause": "Lack of specific information on compatible tools and integration steps.",
+    "resolution": "Agents respond by requesting additional details about the customer’s SAP ERP environment, offering to provide resources such as tutorials, whitepapers, and documentation, and proposing a phone call to discuss the supported integration options and any prerequisites.",
+    "cluster_id": 5,
+    "size": 86
+  },
+  {
+    "label": "Elasticsearch 7.13 Integration & Billing",
+    "issue": "Customers request detailed guidance on configuring, integrating, and billing for Elasticsearch 7.13.",
+    "cause": "Need for specific setup and pricing information.",
+    "resolution": "Agents ask for more details, offer step‑by‑step instructions, provide documentation, or schedule a call to discuss requirements.",
+    "cluster_id": 10,
+    "size": 83
+  },
+  {
+    "label": "Website Traffic Decline",
+    "issue": "Sudden drop in website traffic and engagement",
+    "cause": "Possible algorithm changes, ad blockers, technical errors, or outdated SEO/marketing strategies",
+    "resolution": "Ask the customer to provide more details about recent website updates, analytics data, SEO and marketing changes, and offer to discuss the issue further via phone or scheduled call.",
+    "cluster_id": 7,
+    "size": 83
+  },
+  {
+    "label": "Dashboard loading/freeze issues",
+    "issue": "The data analytics dashboard fails to load, freezes, or crashes after updates or due to database connection problems.",
+    "cause": "Likely incompatible software updates, database connection issues, or insufficient disk space.",
+    "resolution": "Agents apologize, request detailed error messages, logs, version numbers, and system information, and offer to schedule a call. They investigate the issue and will provide a solution once the investigation is complete.",
+    "cluster_id": 66,
+    "size": 82
+  },
+  {
+    "label": "Scalability information request",
+    "issue": "Customers ask for details on how the SaaS project management platform scales for large teams and projects, including features, pricing, support, and integration options.",
+    "cause": "The need to evaluate whether the platform can handle growth and meet the requirements of expanding teams and complex projects.",
+    "resolution": "Agents provide a summary of scalability features, offer brochures or detailed documentation, and invite the customer to schedule a call or email discussion to cover pricing, implementation, support, and training options.",
+    "cluster_id": 51,
+    "size": 79
+  },
+  {
+    "label": "SaaS Integration Issues",
+    "issue": "Integration difficulties with SaaS project management software across multiple tools",
+    "cause": "Recent updates or configuration changes causing API compatibility or authentication issues",
+    "resolution": "Agent acknowledges the issue, requests detailed update history, error messages, and logs, and offers to schedule a call to resolve the problem",
+    "cluster_id": 69,
+    "size": 74
+  },
+  {
+    "label": "Update Billing Information",
+    "issue": "Customers request to change or update billing details for digital products, subscriptions, or marketing services.",
+    "cause": "Billing information is out of date or customers want new payment options, which can lead to service disruptions or inaccurate charges.",
+    "resolution": "The agent asks for the customer’s account number and the new billing address or payment method. After verifying the identity (often via a confirmation number or phone call), the agent processes the update, which typically takes 24–48 hours. The customer receives a confirmation email once the changes are applied. If needed, the agent may schedule a call or ask the customer to send the updated details by email.",
+    "cluster_id": 21,
+    "size": 71
+  },
+  {
+    "label": "Investment Optimization Tool Errors",
+    "issue": "Inconsistent or incorrect analytics results after recent updates or integration changes",
+    "cause": "Recent software updates or integration issues with external data sources",
+    "resolution": "Agents ask for detailed error messages, software version, and integration details, and may schedule a call to investigate further",
+    "cluster_id": 77,
+    "size": 68
+  },
+  {
+    "label": "ClickUp Integration Support",
+    "issue": "Customers request detailed instructions for integrating ClickUp with other platforms such as QuickBooks, Microsoft Dynamics, Adobe Photoshop, Docker, JIRA, SQL Server, etc.",
+    "cause": "Need for step‑by‑step integration guidance and system requirements.",
+    "resolution": "Agents provide a step‑by‑step guide or documentation, ask for specific workflow details, offer a phone call or live walkthrough, and supply any required system or hardware specifications.",
+    "cluster_id": 33,
+    "size": 67
+  },
+  {
+    "label": "Multiple Integration Failures",
+    "issue": "Simultaneous failures of several integrations across different tools",
+    "cause": "Common causes include expired or mismatched API keys, incompatible API updates or plugins, and potential gateway overload",
+    "resolution": "Collect detailed logs and error messages, verify API key status and authentication methods, and schedule a call with the customer to review the information and determine next steps",
+    "cluster_id": 75,
+    "size": 66
+  },
+  {
+    "label": "Zoho Integration Setup",
+    "issue": "Customers need guidance on integrating Zoho Books or Zoho CRM with other tools such as data analytics platforms, project management SaaS, JIRA, ClickUp, etc.",
+    "cause": "Uncertainty about which integrations are available and how to configure them.",
+    "resolution": "Agents direct customers to the support portal or website where they can find documentation and a list of supported integrations, and offer to schedule a call or contact them at <PHONE> for detailed assistance.",
+    "cluster_id": 9,
+    "size": 64
+  },
+  {
+    "label": "Medical Data Security",
+    "issue": "Customers need guidance on protecting medical data with antivirus products and integrating these solutions into their systems.",
+    "cause": "Lack of clarity on available security features and integration steps.",
+    "resolution": "Recommend enabling privacy and anti-search features, encryption, access control, advanced threat defense, anti-ransomware, and device control in the antivirus. Refer to the knowledge base article on antivirus integration for step‑by‑step instructions. Offer to schedule a call or provide documentation to assist with configuration and integration.",
+    "cluster_id": 17,
+    "size": 63
+  },
+  {
+    "label": "Medical Data Security Guidance",
+    "issue": "Customers request advice on how to secure medical data across various platforms and devices",
+    "cause": "Need for general security best practices and compliance with regulations such as HIPAA",
+    "resolution": "Agents provide general guidance on using encryption, robust access controls, regular software updates, and compliance with industry standards. They often ask for more details to tailor advice and offer to discuss specifics or schedule a call.",
+    "cluster_id": 45,
+    "size": 63
+  },
+  {
+    "label": "Integration Documentation Requests",
+    "issue": "Customers ask for detailed guides, best practices, and compatibility information to integrate third‑party services (MySQL, Microsoft Azure/Dynamics/Office 365, Redis, Ubuntu, H2O.ai) into the SaaS project management platform.",
+    "cause": "Need step‑by‑step instructions, configuration details, and performance optimization tips for successful integration.",
+    "resolution": "Agents provide or promise to provide comprehensive documentation and best‑practice guides, and offer a call or email for further discussion.",
+    "cluster_id": 37,
+    "size": 62
+  },
+  {
+    "label": "Smartsheet Integration Options",
+    "issue": "Customers ask how to integrate Smartsheet with other tools, including available integrations, system requirements, pricing, and documentation.",
+    "cause": "Need to understand integration capabilities and prerequisites for successful setup.",
+    "resolution": "Agents provide a list of supported integrations, system and browser requirements, and relevant documentation. They offer to discuss details over a call or email and direct customers to the knowledge base or website for further guidance.",
+    "cluster_id": 42,
+    "size": 56
+  },
+  {
+    "label": "PostgreSQL Integration Guidance",
+    "issue": "Customers request detailed information, documentation, and support for integrating PostgreSQL with project management SaaS or related tools.",
+    "cause": "Lack of readily available integration documentation and specific guidance for connecting PostgreSQL to the platform.",
+    "resolution": "Provide the requested documentation and step‑by‑step instructions, ask for the customer’s specific use case and requirements, and offer to schedule a call to discuss the integration in detail.",
+    "cluster_id": 11,
+    "size": 53
+  },
+  {
+    "label": "JIRA Integration & Pricing Info",
+    "issue": "Customers request details on JIRA integration options, pricing, billing, discounts, and compatible analytics tools.",
+    "cause": "Insufficient knowledge or documentation about integration and pricing.",
+    "resolution": "Agents respond with the requested information, provide documentation or lists of compatible tools, and offer to schedule a call to discuss pricing, discounts, and integration details.",
+    "cluster_id": 8,
+    "size": 52
+  },
+  {
+    "label": "Analytics Tracking Failure",
+    "issue": "Website analytics tracking stops functioning",
+    "cause": "Incorrect implementation of tracking code, plugin conflicts, or recent updates",
+    "resolution": "Agents request the account number, a detailed error description, the list of plugins and their versions, the date the issue began, and may schedule a call to investigate further.",
+    "cluster_id": 52,
+    "size": 51
+  },
+  {
+    "label": "Analytics Data Inconsistency",
+    "issue": "Reports from data analytics tools are inaccurate or inconsistent after recent software updates or integration changes.",
+    "cause": "Software updates, misconfigurations, or integration issues between platforms causing data inconsistencies.",
+    "resolution": "Request detailed information from the customer, including software versions, system details, account ID, error symptoms, and steps already taken, to investigate and resolve the issue.",
+    "cluster_id": 57,
+    "size": 50
+  },
+  {
+    "label": "Google Service Integration Guidance",
+    "issue": "Customers request detailed instructions, documentation, and cost information for integrating Google services (Cloud Platform, Keep, Meet) into their project management SaaS.",
+    "cause": "Lack of ready‑made integration guides and the need for custom setup details.",
+    "resolution": "Provide step‑by‑step documentation and guidelines, ask the customer for specific workflow details, and offer a call to walk through the integration process.",
+    "cluster_id": 20,
+    "size": 50
+  },
+  {
+    "label": "QuickBooks Online Integration",
+    "issue": "Customers request information on how to integrate QuickBooks Online with a project management SaaS, including APIs, setup guides, limitations, and system requirements.",
+    "cause": "Users lack knowledge of available integration options and need guidance on how to connect the two systems.",
+    "resolution": "Agents provide integration guides, documentation, and API details, direct customers to the support website for setup instructions, and offer to schedule a call or request account details for personalized assistance.",
+    "cluster_id": 18,
+    "size": 49
+  },
+  {
+    "label": "ClickUp Integration Failure",
+    "issue": "ClickUp integration stops working or fails to sync with external services",
+    "cause": "Compatibility problems from recent updates, incorrect or outdated API keys, or outdated system packages",
+    "resolution": "Agents request the exact error message, account details, and API key status. They verify API credentials, confirm the ClickUp version and OS, and may schedule a call to gather more information. For Ubuntu users, they advise running 'sudo apt update' and 'sudo apt upgrade' to update packages.",
+    "cluster_id": 58,
+    "size": 48
+  },
+  {
+    "label": "Integration sync failures",
+    "issue": "Users report that data synchronization between Smartsheet, QuickBooks Online, and other connected services (e.g., Smart‑Waage, Smart‑Tracker, osCommerce) has stopped working after recent updates.",
+    "cause": "Recent API changes or mismatches between the integrated applications are likely causing the sync errors.",
+    "resolution": "Agents ask the customer to provide detailed error messages, account information, and the date of the recent update. They may request a phone call or further details to investigate and resolve the issue.",
+    "cluster_id": 53,
+    "size": 46
+  },
+  {
+    "label": "Dashboard loading issue",
+    "issue": "Dashboards fail to load or update, showing errors or crashing",
+    "cause": "Likely due to recent software updates, incompatible plugins, database connection issues, or API integration errors",
+    "resolution": "Agent will investigate the issue, request logs and error messages from the customer, may schedule a call for further discussion, and provide a solution after analysis",
+    "cluster_id": 59,
+    "size": 46
+  },
+  {
+    "label": "Medical Data Security",
+    "issue": "Customers need guidance on securing medical data in MongoDB 4.4 and Google Cloud Platform, ensuring compliance with regulations such as HIPAA.",
+    "cause": "Lack of knowledge about security features and compliance requirements for medical data storage.",
+    "resolution": "Agents provide information and guidance on encryption, access controls, auditing, and compliance for MongoDB 4.4 and Google Cloud Platform, offering resources and best‑practice recommendations.",
+    "cluster_id": 3,
+    "size": 44
+  },
+  {
+    "label": "SaaS Integration Docs Request",
+    "issue": "Customers ask for detailed integration specifications, guidelines, and documentation for various SaaS tools (e.g., Visual Studio Code, Figma, Adobe Effects, ActiveCampaign, Adobe Sign, Slack, Notion).",
+    "cause": "Need to integrate third‑party SaaS services into existing workflows and require step‑by‑step instructions or technical specs.",
+    "resolution": "Agents respond by sending the requested documentation and integration guidelines via email, providing links to detailed guides on the website, or offering to schedule a call to discuss the integration in more detail.",
+    "cluster_id": 32,
+    "size": 44
+  },
+  {
+    "label": "Medical data security protocols",
+    "issue": "Customers inquire about recommended security protocols and measures to protect medical data.",
+    "cause": "The need to safeguard sensitive medical information, maintain confidentiality and integrity, and comply with regulatory standards such as HIPAA.",
+    "resolution": "Implement encryption for data at rest and in transit, use HTTPS for secure communication, enable two‑factor authentication, enforce strong password policies, apply role‑based access controls, configure firewalls, keep the system updated with the latest security patches, and regularly review and improve security procedures.",
+    "cluster_id": 12,
+    "size": 44
+  },
+  {
+    "label": "CRM Integration Requests",
+    "issue": "Customers ask for information, documentation, or assistance to integrate Salesforce or HubSpot CRM with analytics, project management, or other digital tools.",
+    "cause": "Users need advanced integration features (e.g., automated data exchange, custom dashboards, real‑time reporting) but lack details on available tools, setup steps, or prerequisites.",
+    "resolution": "Agents respond by offering to provide documentation or a list of compatible tools, and often schedule a call to discuss the integration process and benefits.",
+    "cluster_id": 22,
+    "size": 43
+  },
+  {
+    "label": "Airtable Integration Guidance",
+    "issue": "Customers request detailed instructions and support for integrating Airtable with other project management or SaaS tools.",
+    "cause": "Insufficient integration documentation and need for customized setup details.",
+    "resolution": "Agents ask for more information about the customer’s current setup and specific integration needs, offer to provide step‑by‑step instructions or direct them to relevant documentation, and invite them to schedule a call for personalized assistance.",
+    "cluster_id": 28,
+    "size": 41
+  },
+  {
+    "label": "Virtual meeting connectivity issues",
+    "issue": "Users experience audio, video, or device disconnections during virtual meetings after recent updates or network changes.",
+    "cause": "Software updates or compatibility conflicts between devices (headsets, projectors, routers) and meeting platforms or network settings.",
+    "resolution": "Agents request detailed error messages, firmware or software versions, device and network configuration details, and often schedule a phone call or provide troubleshooting steps to resolve the issue.",
+    "cluster_id": 63,
+    "size": 40
+  },
+  {
+    "label": "MacOS app crashes",
+    "issue": "Frequent crashes on MacOS when using various applications (e.g., Airtable, Sage Accounting, ClickUp, Elasticsearch, Adobe Photoshop, Scikit‑learn) during normal use or collaboration.",
+    "cause": "Software incompatibility or insufficient system resources (memory or storage).",
+    "resolution": "Ask the user to provide the crashing application name and version, the macOS version, memory and storage details, and any error messages. Use this information to investigate the compatibility issue and, if needed, schedule a call for further troubleshooting.",
+    "cluster_id": 55,
+    "size": 39
+  },
+  {
+    "label": "H2O.ai Data Analytics Tool Compatibility",
+    "issue": "Customers request information on which data analytics tools are compatible with H2O.ai and how to integrate them for investment analysis.",
+    "cause": "Need to identify compatible analytics platforms and integration methods for investment optimization.",
+    "resolution": "Agent will provide the requested information, schedule a call to discuss details, and share relevant documentation or resources.",
+    "cluster_id": 26,
+    "size": 36
+  },
+  {
+    "label": "Alteryx Integration & Training",
+    "issue": "Customers seeking guidance on using Alteryx for investment optimization, system integration, and training resources",
+    "cause": "Lack of detailed knowledge about Alteryx features and integration procedures",
+    "resolution": "Agents provide information on Alteryx capabilities, integration steps with SQL Server, Python, SAP ERP, recommend training options, performance optimization tips, and offer to schedule a call or refer to knowledge base articles",
+    "cluster_id": 23,
+    "size": 36
+  },
+  {
+    "label": "Oracle 19c Integration Requests",
+    "issue": "Customers ask for integration details, documentation, and pricing for Oracle Database 19c with other systems such as Cassandra, Elasticsearch, Docker, Joystick, and project‑management SaaS.",
+    "cause": "The need to connect Oracle 19c to external platforms for analytics, data migration, or project management.",
+    "resolution": "Agents respond by offering relevant integration documentation, sending detailed pricing quotes via email, and scheduling a call or meeting to discuss specific requirements and next steps.",
+    "cluster_id": 19,
+    "size": 36
+  },
+  {
+    "label": "HIPAA Security Measures",
+    "issue": "Customers request details on the security protocols used to maintain HIPAA compliance for medical data storage and transmission.",
+    "cause": "The need to protect the confidentiality, integrity, and availability of electronic protected health information (ePHI) and to meet regulatory requirements.",
+    "resolution": "Explain that the system uses encryption for data at rest and in transit, secure access controls to limit authorized personnel, audit trails to monitor activity, and secure servers. Offer to provide detailed documentation or schedule a call for further discussion.",
+    "cluster_id": 29,
+    "size": 35
+  },
+  {
+    "label": "Securing Medical Data",
+    "issue": "How to protect medical data on Microsoft Windows 10 Pro, Dynamics 365, Office 365, and related cloud services",
+    "cause": "The need to safeguard sensitive patient information from unauthorized access, tampering, or loss",
+    "resolution": "Implement full‑disk encryption (e.g., BitLocker on Windows 10 Pro), use strong passwords, and keep the OS and applications up‑to‑date. Apply role‑based access controls and data encryption for data at rest and in transit in Dynamics 365 and Office 365. Enable auditing and logging to monitor access. Perform regular encrypted backups to external drives or cloud storage. Leverage built‑in security features such as Microsoft’s HIPAA‑compliant controls, data loss prevention, and continuous monitoring. Follow best‑practice guidelines for compliance and consult Microsoft resources for detailed configuration steps.",
+    "cluster_id": 24,
+    "size": 35
+  },
+  {
+    "label": "Securing Medical Data in Oracle 19c",
+    "issue": "Customers need guidance on protecting sensitive medical information stored in Oracle Database 19c, including encryption, access control, auditing, and compliance.",
+    "cause": "The need to maintain confidentiality, integrity, and availability of patient data while meeting regulatory requirements such as HIPAA.",
+    "resolution": "Refer customers to Oracle’s official security documentation and recommend implementing encryption at rest and in transit, role‑based access control, and regular auditing. Suggest using Oracle Advanced Security (Transparent Data Encryption) and reviewing compliance guidelines. Offer to schedule a call for detailed configuration assistance.",
+    "cluster_id": 1,
+    "size": 35
+  },
+  {
+    "label": "Inaccurate Investment Forecasts",
+    "issue": "Customers report that investment forecasts generated by the platform are consistently inaccurate, leading to poor investment decisions.",
+    "cause": "Likely data quality problems, mismatched or outdated data sources, or insufficient/incorrect model training and implementation.",
+    "resolution": "Agents respond by acknowledging the issue, request detailed information about the affected markets, data sources, and model versions, and arrange a phone call or direct contact to investigate data integrity and model performance. They may also suggest reviewing and updating the data pipelines or retraining the models as needed.",
+    "cluster_id": 74,
+    "size": 34
+  },
+  {
+    "label": "QuickBooks Analytics Tools",
+    "issue": "Customer requests a list of data analytics tools compatible with QuickBooks Online for investment optimization and guidance on how to integrate them.",
+    "cause": "The customer wants to enhance investment decisions using analytics integrated with QuickBooks.",
+    "resolution": "Agent provides a list of compatible tools and offers to schedule a call or confirm a phone number to discuss integration details.",
+    "cluster_id": 15,
+    "size": 33
+  },
+  {
+    "label": "Digital strategy info request",
+    "issue": "Customers ask for more details about digital strategies and related services",
+    "cause": "The customer wants additional information or clarification on digital strategy offerings",
+    "resolution": "Agents respond by asking for specific areas of interest, offering to schedule a call at a convenient time, and providing tailored information or directing the customer to relevant resources such as the website or a phone contact",
+    "cluster_id": 14,
+    "size": 33
+  },
+  {
+    "label": "Securing Medical Data on macOS",
+    "issue": "How to protect patient information on Apple macOS devices",
+    "cause": "Need to safeguard sensitive medical data and meet regulatory compliance",
+    "resolution": "Enable full‑disk encryption with FileVault (System Preferences → Security & Privacy → FileVault), use strong passwords and two‑factor authentication, keep macOS and all software up to date, enable Gatekeeper and consider reputable antivirus software, and follow best‑practice guidelines for access control. For detailed instructions or additional support, contact customer service for a call or email.",
+    "cluster_id": 31,
+    "size": 33
+  },
+  {
+    "label": "Project Upload Issues",
+    "issue": "Users encounter errors when uploading or creating projects, including file format incompatibility, size limits, and unexpected errors.",
+    "cause": "Possible server overload, configuration problems, file format incompatibility, size limits, or permission issues.",
+    "resolution": "Agents ask for additional details such as the exact error message, system logs, file types, and account number. They may suggest using FTP for large files as a workaround and will investigate further, possibly contacting the user for a callback.",
+    "cluster_id": 56,
+    "size": 31
+  },
+  {
+    "label": "Pricing Information Request",
+    "issue": "Customers ask for pricing details or consultation cost information for various services or products.",
+    "cause": "Customers need cost information to evaluate or purchase services.",
+    "resolution": "Agents provide the requested pricing information, ask for additional details to tailor a quote, direct the customer to the company website for more information, or offer to schedule a call to discuss specifics. For feedback on website pricing clarity, agents acknowledge the suggestion, promise a review and update, and inform the customer once changes are made.",
+    "cluster_id": 35,
+    "size": 32
+  },
+  {
+    "label": "Evernote Integration Support",
+    "issue": "Customers need help integrating Evernote with other services or resolving data‑sync problems.",
+    "cause": "Missing or incomplete integration configuration and lack of detailed error information.",
+    "resolution": "Agents refer customers to the official integration documentation, request specific error messages or account details, and offer to schedule a call for deeper troubleshooting. They also provide lists of compatible applications and outline the standard linking steps.",
+    "cluster_id": 16,
+    "size": 32
+  }
+]
