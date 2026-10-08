@@ -113,7 +113,7 @@ support-bot/
 
 ### 1. Clone and install
 ```bash
-git clone https://github.com/Aditya-G-22/support-bot.git
+git clone https://github.com/Aditya-G-22/Support-Chat-bot.git
 cd support-bot
 uv sync
 ```
