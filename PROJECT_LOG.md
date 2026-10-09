@@ -477,8 +477,9 @@ Architecture: `vector_store.add_documents(ids, documents, metadatas)` is the gen
 
 ## 15. Future Ideas (Intentionally Postponed)
 
+- **Show matched topic + sources in the UI**: The backend already returns `matched_topic` and `sources` on every `/chat` response, and the chat stores them. DEFERRED by user decision (2026-10-09) — add as a separate panel in the demo (not inline in the chat) AFTER the full website is built.
 - **Streaming responses**: Not needed for a portfolio demo. Add after everything else works.
-- **Web UI**: Build after the core pipeline is validated end-to-end.
+- **Web UI**: IN PROGRESS (2026-10-09) — React (Vite) frontend in `frontend/`, FastAPI backend in `server.py` (POST /chat wraps run_agent). One scrolling landing page (Hero → Dataset → Features → Demo chat) matching a wireframe. Runs locally; public deploy deferred (vector DB is large + ingestion is slow).
 - **Real-time ticket ingestion**: Out of scope for current phase.
 - **Fine-tuning embedding models**: Consider only after baseline evaluation shows the pre-trained multilingual model is insufficient.
 - **Neo4j or other graph databases**: Evaluate only if in-memory NetworkX is proven to be a bottleneck or if the graph provides proven value.
